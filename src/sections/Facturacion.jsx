@@ -142,7 +142,7 @@ export const Facturacion = ({ totales }) => {
             </Select>
           </div>
         </TabsContent>
-        <TabsContent value="credito">
+        <TabsContent value="credito" className="space-y-4 pt-4 w-full">
           <div className="flex flex-col gap-4 w-full">
             <div className="flex flex-col gap-1 w-full">
               <Label htmlFor="cantidad-cuotas">Cantidad de cuotas</Label>
